@@ -161,7 +161,7 @@ public class UserAuthentication {
         Scanner sc = new Scanner(System.in);
 
         // Registered User
-        String email = "navya@gmail.com";
+        String email = "pavi@gmail.com";
         String password = PasswordUtil.hashPassword("12345");
 
         User registeredUser = new User(email, password);
